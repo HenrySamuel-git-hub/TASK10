@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <center>
+    <h1>CREATE NEW PASSWORD</h1>
+    <form method="get" action="./changepassword.html" autocomplete="off">
+        <label for="user name">User name:</label>
+        <input type="text" name="username" id="user name" pattern="[a-zA-Z0-9]{8,16}" placeholder="Enter username">
+        <br> <br>
+        <label for="New pswrd">New Pswd :</label>
+        <input type="password" name="password"  placeholder="New password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}">
+        <br><br>
+        <input type="number" name="OTP" id="OTP" pattern="[0-9]{6}" placeholder="OTP">
+        <br><br>
+        <label for="OTP">OTP-1234</label>
+        <br><br>
+        <input type="submit" value="CHANGE PASSWORD">
+        <br><br>
+    </form>
+</center>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+   <CENTER> <h1>LOGIN PAGE</h1>
+    <form method="get" action="./loginsuccess.html" autocomplete="off">
+        <label for="User name">User Name :</label>
+        <input type="text" name="username" pattern="[a-zA-Z0-9]{8,16}" placeholder="Enter username" title="enter only nums and alphabets"required>
+        <br> <br>
+        <label for="Password"> Enter Pswrd :</label>
+        <input type="password" name="password"  placeholder="Enter password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}" required>
+        <br><br>
+        <input type="submit" value="LOGIN">
+        <BR><BR>
+    </CENTER>
+    </form>
+    <CENTER>
+    <a href="./Forgot.html" target="_blank"><button>FORGOT</button></a>
+        <a href="./register.html" target="_blank"><button>REGISTER</button></a>
+    </CENTER>
+    </body>
+</html>
